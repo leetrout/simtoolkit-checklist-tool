@@ -1,9 +1,15 @@
 import csv
-from dataclasses import dataclass, asdict
 import json
 import sys
-from collections import defaultdict
-from typing import List
+from dataclasses import asdict, dataclass
+from typing import Dict, Final, List, TypedDict
+
+META_KEY: Final[str] = "!!META"
+
+
+class Metadata(TypedDict):
+    name: str
+    author: str
 
 
 @dataclass
@@ -34,20 +40,31 @@ def main():
         print(f"No data loaded from {file_path}")
         sys.exit(1)
 
-    metadata = prompt_for_meta()
-    output = generate_output(metadata, csv_data)
+    output = generate_output(csv_data)
 
     output_path = sys.argv[2]
+
+    if output_path == "-":
+        print(output)
+        return
+
     with open(output_path, "w") as fh:
         fh.write(output)
         print(f"Wrote {output_path}")
 
 
-def generate_output(metadata, csv_data):
-    groups = {}
+def generate_output(csv_data) -> str:
+    metadata: Metadata = {
+        "name": "STK Generator Checklist",
+        "author": "STK Generator",
+    }
+    groups: Dict[str, Group] = {}
 
     for row in csv_data:
         gname = row["GROUP"]
+        if gname == META_KEY:
+            metadata = update_meta(metadata, row)
+            continue
         group = groups.get(gname, Group(name=gname, items=[]))
         group.items.append(
             GroupItem(
@@ -61,8 +78,8 @@ def generate_output(metadata, csv_data):
 
     json_output = json.dumps(
         {
-            "name": metadata["aircraft"],
-            "author": metadata["author_name"],
+            "name": metadata["name"],
+            "author": metadata["author"],
             "groups": [asdict(g) for g in groups.values()],
         },
         indent=2,
@@ -71,13 +88,9 @@ def generate_output(metadata, csv_data):
     return json_output
 
 
-def prompt_for_meta():
-    ac_name = input("What is the aircaft name? ")
-    author_name = input("What is the author name? ")
-    return {
-        "aircraft": ac_name,
-        "author_name": author_name,
-    }
+def update_meta(metadata, row) -> Metadata:
+    metadata[row["ITEM NAME"].lower()] = row["ITEM STATE"]
+    return metadata
 
 
 def usage():
@@ -85,6 +98,8 @@ def usage():
         """convert.py usage:
 
 python convert.py [input_csv_file_path] [output_checklist_name]
+
+Use `-` for the output to write to standard out.
 """
     )
 

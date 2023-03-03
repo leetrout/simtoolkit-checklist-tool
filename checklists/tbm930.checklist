@@ -1,6 +1,6 @@
 {
-  "name": "TBM 930",
-  "author": "Lee",
+  "name": "TBM 930 - Normal Procedures",
+  "author": "Lee v2303021",
   "groups": [
     {
       "name": "REF SPEEDS",
@@ -184,13 +184,13 @@
           "colour": ""
         },
         {
-          "item": "ITT max 870 20\"",
+          "item": "ITT",
           "state": "MAX 870 20\"",
           "desc": "",
           "colour": ""
         },
         {
-          "item": "ITT max 1000 5\"",
+          "item": "ITT",
           "state": "MAX 1000 5\"",
           "desc": "",
           "colour": ""
