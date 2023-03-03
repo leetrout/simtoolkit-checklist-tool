@@ -1,0 +1,956 @@
+{
+  "name": "TBM 930",
+  "author": "Lee",
+  "groups": [
+    {
+      "name": "REF SPEEDS",
+      "items": [
+        {
+          "item": "Best Glide",
+          "state": "120 KIAS",
+          "desc": "Clean",
+          "colour": "red"
+        },
+        {
+          "item": "Approach",
+          "state": "85 KIAS",
+          "desc": "Flaps LDG",
+          "colour": "blue"
+        },
+        {
+          "item": "5000 LBS",
+          "state": "73 KIAS",
+          "desc": "Vr",
+          "colour": "green"
+        },
+        {
+          "item": "5500 LBS",
+          "state": "77 KIAS",
+          "desc": "Vr",
+          "colour": "green"
+        },
+        {
+          "item": "6000 LBS",
+          "state": "80 KIAS",
+          "desc": "Vr",
+          "colour": "green"
+        },
+        {
+          "item": "6500 LBS",
+          "state": "84 KIAS",
+          "desc": "Vr",
+          "colour": "green"
+        },
+        {
+          "item": "7000 LBS",
+          "state": "88 KIAS",
+          "desc": "Vr",
+          "colour": "green"
+        },
+        {
+          "item": "7394 LBS",
+          "state": "90 KIAS",
+          "desc": "Vr",
+          "colour": "green"
+        },
+        {
+          "item": "Vy",
+          "state": "124 KIAS",
+          "desc": "",
+          "colour": "purple"
+        },
+        {
+          "item": "Vx",
+          "state": "100 KIAS",
+          "desc": "",
+          "colour": "purple"
+        },
+        {
+          "item": "Flaps TO",
+          "state": "178 KIAS",
+          "desc": "",
+          "colour": "yellow"
+        },
+        {
+          "item": "Flaps LDG",
+          "state": "122 KIAS",
+          "desc": "",
+          "colour": "yellow"
+        },
+        {
+          "item": "Gear Down",
+          "state": "178 KIAS",
+          "desc": "",
+          "colour": "yellow"
+        },
+        {
+          "item": "Gear Extension",
+          "state": "178 KIAS",
+          "desc": "",
+          "colour": "yellow"
+        },
+        {
+          "item": "Gear Retraction",
+          "state": "150 KIAS",
+          "desc": "",
+          "colour": "yellow"
+        }
+      ]
+    },
+    {
+      "name": "BEFORE START",
+      "items": [
+        {
+          "item": "Crash Bar",
+          "state": "UP",
+          "desc": "",
+          "colour": "red"
+        },
+        {
+          "item": "Electrical Source",
+          "state": "BAT / GPU",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Generator",
+          "state": "MAIN",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Landing Gear",
+          "state": "TEST LIGHT & CK DOWN",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Park Brake",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "ENGINE START",
+      "items": [
+        {
+          "item": "Beacon",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Ignition",
+          "state": "AUTO",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Aux BP",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Prop Area",
+          "state": "CLEAR",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Starter",
+          "state": "ON for 2\"",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Throttle",
+          "state": "1000 RPM",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Alternator",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "NG 13%",
+          "state": "THROTTLE LOW IDLE",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "ITT max 870 20\"",
+          "state": "MAX 870 20\"",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "ITT max 1000 5\"",
+          "state": "MAX 1000 5\"",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Automatic Starter",
+          "state": "CK OFF",
+          "desc": "When NG 52%",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "AFTER START",
+      "items": [
+        {
+          "item": "Electrical Source",
+          "state": "BAT",
+          "desc": "If GPU",
+          "colour": ""
+        },
+        {
+          "item": "GPU",
+          "state": "DISCONNECT",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Throttle",
+          "state": "FLIGHT IDLE",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "NG",
+          "state": "CK 70%",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "OIL",
+          "state": "CK PRESS & TEMP",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Aux BP",
+          "state": "AUTO",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Fuel Selector",
+          "state": "AUTO",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "AP / Trim",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Generator",
+          "state": "ST-BY / TEST",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Generator",
+          "state": "MAIN",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "A/C",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Bleed",
+          "state": "AUTO or MAX DIFF",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "BEFORE TAXI",
+      "items": [
+        {
+          "item": "ST-BY Instruments",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "De-Ice System",
+          "state": "TEST",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Inert Sep",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Flight Controls",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Flaps",
+          "state": "UP",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Throttle",
+          "state": "FEATHER TWICE",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Taxi Light",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "BEFORE TAKEOFF",
+      "items": [
+        {
+          "item": "Taxi Light",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Landing Lights",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Strobe Lights",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Ignition",
+          "state": "AUTO/ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Aux BP",
+          "state": "AUTO",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Fuel Selector",
+          "state": "AUTO",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "De-Ice System",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Pitot L/R & Stall HTR",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Inert Sep",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "O2 Master Switch",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Trim",
+          "state": "TO",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Flaps",
+          "state": "TO",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "A/C",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Bleed",
+          "state": "AUTO or MAX DIFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Fuel",
+          "state": "CK QTY / BALANCED",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Ammeter",
+          "state": "CK <50 AMP",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Altimeter",
+          "state": "SET / CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "XPDR",
+          "state": "SET / CK",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "TAKEOFF",
+      "items": [
+        {
+          "item": "HIS / Heading",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Prop Speed",
+          "state": "GREEN ARC",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Brakes",
+          "state": "RELEASED",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Torque",
+          "state": "100%",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Vr",
+          "state": "SEE REF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Positive Climb",
+          "state": "BRAKES / GEAR UP",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "IAS > 115 KIAS",
+          "state": "FLAPS UP",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "AFTER TAKEOFF",
+      "items": [
+        {
+          "item": "Landing Gear",
+          "state": "UP",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Flaps",
+          "state": "UP",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "TRQ Max 100%",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "De-Ice System",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Inert Sep",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "CLIMB",
+      "items": [
+        {
+          "item": "Altimeter",
+          "state": "CK / SET",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "AP",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "TRQ / ITT / NG",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Pressurization",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Fuel",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Volts / Amps",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "De-Ice System",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Inert Sep",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Landing Lights",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "CRUISE",
+      "items": [
+        {
+          "item": "Altimeter",
+          "state": "CK / SET",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "AP",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "TRQ / ITT / NG",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Pressurization",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Fuel",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Volts / Amps",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "De-Ice System",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Inert Sep",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Landing Lights",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "BEFORE DESCENT",
+      "items": [
+        {
+          "item": "Approach Brief",
+          "state": "COMPLETED",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Altimeter",
+          "state": "CK / SET",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Pressurization",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Fuel",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Volts / Amps",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "De-Ice System",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Inert Sep",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "APPROACH",
+      "items": [
+        {
+          "item": "Altimeter QNH",
+          "state": "CK / SET",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Minimums",
+          "state": "CK / SET",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "COM / NAV / GPS",
+          "state": "CK / SET",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Pressurization",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Fuel",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Volts / Amps",
+          "state": "CK",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "De-Ice System",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Inert Sep",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Landing Lights",
+          "state": "ON BELOW FL100",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "FINAL / DOWNWIND",
+      "items": [
+        {
+          "item": "Landing Lights",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Inert Sep",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Landing Gear",
+          "state": "DOWN / 3 GREEN",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Flaps",
+          "state": "TO",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "SHORT FINAL / 500 AGL",
+      "items": [
+        {
+          "item": "Landing Gear",
+          "state": "DOWN / 3 GREEN",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Flaps",
+          "state": "LDG",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "AP",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "AFTER LANDING",
+      "items": [
+        {
+          "item": "Landing Lights",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Taxi Light",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "De-Ice System",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Inert Sep",
+          "state": "ON",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Trims",
+          "state": "RESET",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Flaps",
+          "state": "UP",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "A/C",
+          "state": "AS REQ",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "XPDR",
+          "state": "GND",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    },
+    {
+      "name": "SHUTDOWN",
+      "items": [
+        {
+          "item": "Parking Brake",
+          "state": "SET",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "External Lights",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "O2 Master Switch",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Fuel Selector",
+          "state": "MAN",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "AP / Trim",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "A/C",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Bleed",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Throttle",
+          "state": "FLIGHT IDLE 2 MIN",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Throttle",
+          "state": "LOW IDLE 15 SEC",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Throttle",
+          "state": "CUTOFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Inert Sep",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Aux BP",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Generator",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Source",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        },
+        {
+          "item": "Crash Bar",
+          "state": "DOWN",
+          "desc": "",
+          "colour": "red"
+        },
+        {
+          "item": "ST-BY Instruments",
+          "state": "OFF",
+          "desc": "",
+          "colour": ""
+        }
+      ]
+    }
+  ]
+}
