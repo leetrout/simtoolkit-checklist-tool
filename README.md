@@ -40,10 +40,10 @@ author set to `Kermit` the row would look like:
 
 I am versioning the checklists in the author field in this format:
 
-`Lee YYMMDDN` where the parts are year, month, day with padded zeroes and an
+`Lee vYYMMDDN` where the parts are year, month, day with padded zeroes and an
 incrementing value starting at 1 in the event I have multiple versions on the
 same day.
 
-For example: `Lee 2303021` is the first version released on March 2nd 2023.
+For example: `Lee v2303021` is the first version released on March 2nd 2023.
 
 [fstk]: https://simtoolkitpro.co.uk/
