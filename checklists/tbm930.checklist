@@ -120,7 +120,7 @@
         },
         {
           "item": "Landing Gear",
-          "state": "TEST LIGHT & CK DOWN",
+          "state": "TEST LIGHT & CHECK DOWN",
           "desc": "",
           "colour": ""
         },
@@ -173,7 +173,7 @@
         },
         {
           "item": "Alternator",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
@@ -197,7 +197,7 @@
         },
         {
           "item": "Automatic Starter",
-          "state": "CK OFF",
+          "state": "CHECK OFF",
           "desc": "When NG 52%",
           "colour": ""
         }
@@ -226,13 +226,13 @@
         },
         {
           "item": "NG",
-          "state": "CK 70%",
+          "state": "CHECK 70%",
           "desc": "",
           "colour": ""
         },
         {
           "item": "OIL",
-          "state": "CK PRESS & TEMP",
+          "state": "CHECK PRESS & TEMP",
           "desc": "",
           "colour": ""
         },
@@ -285,7 +285,7 @@
       "items": [
         {
           "item": "ST-BY Instruments",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
@@ -303,7 +303,7 @@
         },
         {
           "item": "Flight Controls",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
@@ -416,25 +416,25 @@
         },
         {
           "item": "Fuel",
-          "state": "CK QTY / BALANCED",
+          "state": "CHECK QTY / BALANCED",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Ammeter",
-          "state": "CK <50 AMP",
+          "state": "CHECK <50 AMP",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Altimeter",
-          "state": "SET / CK",
+          "state": "SET / CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "XPDR",
-          "state": "SET / CK",
+          "state": "SET / CHECK",
           "desc": "",
           "colour": ""
         }
@@ -445,7 +445,7 @@
       "items": [
         {
           "item": "HIS / Heading",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
@@ -504,7 +504,7 @@
         },
         {
           "item": "TRQ Max 100%",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
@@ -527,37 +527,37 @@
       "items": [
         {
           "item": "Altimeter",
-          "state": "CK / SET",
+          "state": "CHECK / SET",
           "desc": "",
           "colour": ""
         },
         {
           "item": "AP",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "TRQ / ITT / NG",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Pressurization",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Fuel",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Volts / Amps",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
@@ -586,37 +586,37 @@
       "items": [
         {
           "item": "Altimeter",
-          "state": "CK / SET",
+          "state": "CHECK / SET",
           "desc": "",
           "colour": ""
         },
         {
           "item": "AP",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "TRQ / ITT / NG",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Pressurization",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Fuel",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Volts / Amps",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
@@ -651,25 +651,25 @@
         },
         {
           "item": "Altimeter",
-          "state": "CK / SET",
+          "state": "CHECK / SET",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Pressurization",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Fuel",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Volts / Amps",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
@@ -692,37 +692,37 @@
       "items": [
         {
           "item": "Altimeter QNH",
-          "state": "CK / SET",
+          "state": "CHECK / SET",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Minimums",
-          "state": "CK / SET",
+          "state": "CHECK / SET",
           "desc": "",
           "colour": ""
         },
         {
           "item": "COM / NAV / GPS",
-          "state": "CK / SET",
+          "state": "CHECK / SET",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Pressurization",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Fuel",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
         {
           "item": "Volts / Amps",
-          "state": "CK",
+          "state": "CHECK",
           "desc": "",
           "colour": ""
         },
